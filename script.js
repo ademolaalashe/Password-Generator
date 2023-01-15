@@ -157,10 +157,10 @@ function generatePassword() {
     // generate a random password of the desired length
     while (password.length < passwordLength) {
       let randomIndex = getRandom(passwordCharacters);
-      password.push(passwordCharacters[randomIndex]);
+      password += passwordCharacters[randomIndex];
     }
   
-    return password.join('');
+    return password;
   }
 
 // Get references to the #generate element
