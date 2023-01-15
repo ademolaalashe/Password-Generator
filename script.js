@@ -147,11 +147,11 @@ function generatePassword() {
     let passwordCharacters = [];
     if (includeSpecialCharacters)
       passwordCharacters = passwordCharacters.concat(specialCharacters);
-    if (includeNumericCharacters)
+      if (includeNumericCharacters)
       passwordCharacters = passwordCharacters.concat(numericCharacters);
-    if (includeLowerCasedCharacters)
+      if (includeLowerCasedCharacters)
       passwordCharacters = passwordCharacters.concat(lowerCasedCharacters);
-    if (includeUpperCasedCharacters)
+      if (includeUpperCasedCharacters)
       passwordCharacters = passwordCharacters.concat(upperCasedCharacters);
   
     // generate a random password of the desired length
