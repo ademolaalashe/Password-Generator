@@ -90,17 +90,20 @@ let upperCasedCharacters = [
 
 // Function to prompt user for password options
 // declare variables for global use
+
 let passwordLength;
 let includeSpecialCharacters;
 let includeNumericCharacters;
 let includeLowerCasedCharacters;
 let includeUpperCasedCharacters;
 let passwordOptions;
+
 // Function to prompt user for password options
 function getPasswordOptions() {
   passwordLength = prompt(
     'Please enter the desired password lenght (minimum of 10 characters and a maximum of 64 characters)'
   );
+
   // check the input is within the range and is a number
   while (passwordLength < 10 || passwordLength > 64 || isNaN(passwordLength)) {
     alert(
@@ -122,7 +125,8 @@ function getPasswordOptions() {
   includeUpperCasedCharacters = confirm(
     `Include uppercased characters (A-Z) in the password?`
   );
-  // create object with corresponding arrays of characters for each prompt option
+
+  // This creates an object with corresponding arrays of characters for each prompt option
   passwordOptions = [
     { option: includeSpecialCharacters, array: specialCharacters },
     { option: includeNumericCharacters, array: numericCharacters },
