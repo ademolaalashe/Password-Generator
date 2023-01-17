@@ -21,3 +21,5 @@ Character types:
 - Numeric
 
 - Special characters ($@%&*, etc.)
+
+![FDR](https://github.com/ademolaalashe/Password-Generator/blob/main/Password-Generator.png)
