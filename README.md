@@ -23,3 +23,18 @@ Character types:
 - Special characters ($@%&*, etc.)
 
 ![FDR](https://github.com/ademolaalashe/Password-Generator/blob/main/Password-Generator.png)
+
+
+
+
+
+Credits
+
+BootCamp class - This project had a starter code which helped.
+
+Alexandra Batrak - For taking the time to answer any questions I had. Alexandra has been of great help. You can view Alexandra's repo here: https://github.com/alexandrabatrak
+
+Tutor - Tutoring session also helped with further understanding.
+
+Teaching Assistant: For the encouragement and also answering questions I had.
+
